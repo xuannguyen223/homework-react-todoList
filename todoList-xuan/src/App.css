@@ -1,0 +1,31 @@
+.ToDoList {
+  @apply container bg-black/5 p-6 rounded-md w-3/4;
+}
+
+.title {
+  @apply text-black font-bold my-10 text-center text-2xl;
+}
+
+.title2 {
+  @apply text-orange-500 text-center text-3xl my-5 bg-yellow-100;
+}
+
+.addTask {
+  @apply flex items-center justify-between gap-2;
+}
+
+.taskPending {
+  @apply bg-white rounded-md px-3 py-2 flex justify-between items-center mt-3;
+}
+
+.taskComplete {
+  @apply bg-teal-200/80 rounded-md px-3 py-2 flex justify-between items-center mt-3;
+}
+
+.taskComplete p {
+  @apply line-through;
+}
+
+.renderAPI {
+  @apply mx-4 mt-10 text-black/70;
+}
